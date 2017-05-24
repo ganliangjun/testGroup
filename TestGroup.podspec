@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'TestGroup'
-  s.version          = '0.0.1'
+  s.version          = '0.0.2'
   s.summary          = 'TestGroup'
 
 # This description is used to generate tags and improve search results.
@@ -40,8 +40,8 @@ TODO: 测试组件化 组件分支
     end
 
     s.subspec 'GLJNoteworkRequestTool' do |c|
-        c.source_files = 'TestGroup/Classes/GLJNoteworkRequestTool/**/*'
         s.dependency 'AFNetworking'
+        c.source_files = 'TestGroup/Classes/GLJNoteworkRequestTool/**/*'
     end
 
     s.subspec 'tool' do |d|
@@ -49,11 +49,12 @@ TODO: 测试组件化 组件分支
     end
 
 
-  # s.resource_bundles = {
-  #   'TestGroup' => ['TestGroup/Assets/*.png']
-  # }
+#   s.resource_bundles = {
+#    'TestGroup' => ['TestGroup/Assets/*.png']
+#   }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
+# s.dependency 'AFNetworking'
 
 end
