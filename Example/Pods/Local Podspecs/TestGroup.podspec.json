@@ -1,0 +1,27 @@
+{
+  "name": "TestGroup",
+  "version": "0.0.1",
+  "summary": "A short description of TestGroup.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/970721775@qq.com/TestGroup",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "970721775@qq.com": "970721775@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/970721775@qq.com/TestGroup.git",
+    "tag": "0.0.1"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "TestGroup/Classes/**/*",
+  "dependencies": {
+    "AFNetworking": [
+
+    ]
+  }
+}
