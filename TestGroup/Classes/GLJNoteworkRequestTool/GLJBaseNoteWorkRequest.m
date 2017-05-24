@@ -8,10 +8,12 @@
 
 #import "GLJBaseNoteWorkRequest.h"
 #import <objc/runtime.h>
+#import "AFNetworking.h"
 
 @interface GLJBaseNoteWorkRequest ()
 
 @property (strong, nonatomic) NSDictionary *parms;
+@property (nonatomic, strong) AFHTTPSessionManager *manager;
 
 @end
 

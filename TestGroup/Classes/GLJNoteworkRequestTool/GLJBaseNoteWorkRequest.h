@@ -6,14 +6,13 @@
 //  Copyright © 2017年 JunLiang Gan. All rights reserved.
 //
 
+
 #import <Foundation/Foundation.h>
-#import "AFNetworking.h"
 
 typedef void(^BackDataBlack)(NSURLSessionDataTask *task, id dateModel, BOOL isSuccess);
 
 @interface GLJBaseNoteWorkRequest : NSObject
 
-@property (nonatomic, strong) AFHTTPSessionManager *manager;
 @property (nonatomic, copy) BackDataBlack backDataBlack;
 @property (nonatomic, strong) NSString *ApiString;
 
