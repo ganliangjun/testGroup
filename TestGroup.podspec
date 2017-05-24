@@ -39,12 +39,12 @@ TODO: 测试组件化 组件分支
         b.source_files = 'TestGroup/Classes/GLJBaseModel/**/*'
     end
 
-    s.subspec 'categry' do |c|
+    s.subspec 'GLJNoteworkRequestTool' do |c|
         c.source_files = 'TestGroup/Classes/GLJNoteworkRequestTool/**/*'
         s.dependency 'AFNetworking'
     end
 
-    s.subspec 'categry' do |d|
+    s.subspec 'tool' do |d|
         d.source_files = 'TestGroup/Classes/tool/**/*'
     end
 
