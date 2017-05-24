@@ -14,19 +14,19 @@ PODS:
   - AFNetworking/Serialization (3.1.0)
   - AFNetworking/UIKit (3.1.0):
     - AFNetworking/NSURLSession
-  - TestGroup (0.0.1):
+  - TestGroup (0.0.2):
     - AFNetworking
-    - TestGroup/categry (= 0.0.1)
-    - TestGroup/GLJBaseModel (= 0.0.1)
-    - TestGroup/GLJNoteworkRequestTool (= 0.0.1)
-    - TestGroup/tool (= 0.0.1)
-  - TestGroup/categry (0.0.1):
+    - TestGroup/categry (= 0.0.2)
+    - TestGroup/GLJBaseModel (= 0.0.2)
+    - TestGroup/GLJNoteworkRequestTool (= 0.0.2)
+    - TestGroup/tool (= 0.0.2)
+  - TestGroup/categry (0.0.2):
     - AFNetworking
-  - TestGroup/GLJBaseModel (0.0.1):
+  - TestGroup/GLJBaseModel (0.0.2):
     - AFNetworking
-  - TestGroup/GLJNoteworkRequestTool (0.0.1):
+  - TestGroup/GLJNoteworkRequestTool (0.0.2):
     - AFNetworking
-  - TestGroup/tool (0.0.1):
+  - TestGroup/tool (0.0.2):
     - AFNetworking
 
 DEPENDENCIES:
@@ -38,7 +38,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
-  TestGroup: dd1cbe6d0f2fa3fd72259653c187b7eda307b079
+  TestGroup: 530b167cdd39d203f7e2b5ba1cc7d3005d2433d7
 
 PODFILE CHECKSUM: cee293aaa4ec3be40efc6e81960e7b16b899413e
 
