@@ -41,6 +41,7 @@ TODO: 测试组件化 组件分支
 
     s.subspec 'categry' do |c|
         c.source_files = 'TestGroup/Classes/GLJNoteworkRequestTool/**/*'
+        s.dependency 'AFNetworking'
     end
 
     s.subspec 'categry' do |d|
@@ -54,5 +55,5 @@ TODO: 测试组件化 组件分支
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-   s.dependency 'AFNetworking'
+
 end
