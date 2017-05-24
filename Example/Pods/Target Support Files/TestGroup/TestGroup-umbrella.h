@@ -10,6 +10,8 @@
 #endif
 #endif
 
+#import "GLJBaseModel.h"
+#import "GLJBaseNoteWorkRequest.h"
 #import "NSDictionary+Expend.h"
 #import "NSString+MD5.h"
 #import "UIButton+touch.h"
@@ -17,8 +19,6 @@
 #import "UIImage+ZMImage.h"
 #import "UILabel+Expend.h"
 #import "UIView+ZMLayout.h"
-#import "GLJBaseModel.h"
-#import "GLJBaseNoteWorkRequest.h"
 #import "GLJTitleAlertView.h"
 
 FOUNDATION_EXPORT double TestGroupVersionNumber;
